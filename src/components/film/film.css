@@ -1,0 +1,141 @@
+.margin-top {
+  margin-top: 10px;
+}
+.film .block1 {
+  height: 100vh;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.film {
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.film .filmFondo {
+  background-image: linear-gradient(
+    to right,
+    rgba(5.49%, 10.2%, 15.69%, 1) 150px,
+    rgba(5.49%, 10.2%, 15.69%, 0.84) 100%
+  );
+  margin: 0 !important;
+}
+.texto-movie {
+  padding: 1rem;
+}
+
+.film .block2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.film .portada {
+  display: block !important;
+  margin-left: auto !important;
+  border: 0;
+  border-radius: 5px;
+}
+
+.film .titulo h1 {
+  color: #66fcf1;
+  font-weight: 700 !important;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.film .extraInfo span {
+  color: #45a29e;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.film .circulo-valoracion-pelicula {
+  width: 60px;
+}
+
+.film .multimedia {
+  display: flex;
+  align-items: center;
+}
+.film .multimedia span {
+  color: #45a29e;
+  margin-left: 1rem !important;
+}
+
+.film #sinopsis h3 {
+  font-weight: 600 !important;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #45a29e;
+}
+
+.film #sinopsis p {
+  color: #c5c6c7;
+}
+.film .lista-like {
+  background-color: #0b0c10;
+  border-color: #66fcf1;
+  color: #66fcf1;
+  margin-right: 10px;
+}
+
+.film .lista-like:hover {
+  background-color: #1f2833;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+
+.film .lista-like:active {
+  background-color: #1f2833;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+
+.film .lista-like:focus {
+  background-color: #1f2833;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+
+.film .boton-reproducir {
+  display: inline;
+}
+
+@media (max-width: 875px) and (orientation: landscape) {
+  .film .portada {
+    margin: auto;
+  }
+  .film .block2 {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  #sinopsis {
+    margin: auto !important;
+  }
+  .film .multimedia {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .film .portada {
+    margin: auto;
+  }
+  .film .block2 {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+
+  #sinopsis {
+    margin: auto !important;
+  }
+  .film .multimedia {
+    justify-content: center;
+  }
+}
+
+.film {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin: 0 !important;
+}

@@ -1,0 +1,145 @@
+.formularioNav {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.navbar{
+  font-family: 'Hind Madurai', sans-serif;
+}
+.formularioNav button {
+  margin-left: 10px;
+}
+
+.formularioNav input {
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: rgb(31, 40, 51);
+  color: #45a29e;
+  /* padding: 0 !important; */
+}
+/* .menu-titul */
+
+.botonMenuDesplegable .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 252, 241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.botonMenuDesplegable.navbar-toggler {
+  border-color: rgb(102, 252, 241);
+}
+
+.buscadorInput {
+  width: 300px !important;
+  padding: 0.5rem;
+}
+
+.ul2 {
+  width: 300px !important;
+}
+
+.lista {
+  display: block;
+  margin: auto !important;
+}
+
+.navbar-brand {
+  padding: 0 !important;
+  text-decoration: none;
+  height: 56px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-menu {
+  height: 56px;
+  margin-right: 10px;
+}
+
+.fotoInput {
+  width: 20%;
+}
+.elementoLista {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+}
+.elementoLista span {
+  padding: 0.5rem;
+}
+.link-lista {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #45a29e;
+}
+.navbar .cerrarSesion {
+  background-color: #0b0c10;
+  border-color: #66fcf1;
+  color: #66fcf1;
+  margin-right: 10px;
+}
+
+.navbar .cerrarSesion:hover {
+  background-color: #1f2833;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+
+.navbar .lista-like {
+  background-color: #0b0c10;
+  border-color: #66fcf1;
+  color: #66fcf1;
+  margin-right: 10px;
+}
+
+.navbar .lista-like:hover {
+  background-color: #1f2833;
+  border-color: #66fcf1;
+  color: #66fcf1;
+}
+
+.navbar .inputPrueba {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.navbar .icono-like {
+  color: #66fcf1;
+  font-size: 1rem;
+}
+
+.navbar .menu-titulo {
+  font-family: "Halant", serif;
+  color: #66fcf1;
+}
+
+@media (max-width: 767.98px) {
+  .nav-item {
+    margin: auto !important;
+  }
+  .buscadorInput {
+    width: 250px !important;
+  }
+
+  .ul2 {
+    width: 250px !important;
+  }
+  .navbar .cerrarSesion {
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+  }
+  .navbar .lista-like {
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .navbar .inputPrueba {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+  }
+}
